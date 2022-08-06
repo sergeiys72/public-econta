@@ -1,0 +1,12 @@
+.clien__item{
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .clien__item{
+    max-width: 100%;
+  }
+}

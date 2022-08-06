@@ -1,0 +1,10 @@
+.clien{
+  background-color: rgb(13, 37, 47, 0.7);
+  padding: 0 0 100px 0;
+}
+
+@media screen and (max-width: 805px) {
+  .clien{
+    padding: 0 0 25px;
+  }
+}

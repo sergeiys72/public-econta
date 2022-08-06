@@ -1,0 +1,11 @@
+.why{
+  background-color: rgb(13, 37, 47, 0.7);
+  padding: 30px 30px;
+}
+
+@media screen and (max-width: 505px) {
+  .why{
+    padding: 15px 15px;
+
+  }
+}

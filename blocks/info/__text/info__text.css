@@ -1,0 +1,13 @@
+.info__text{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-indent: 29px;
+}
+
+
+  @media screen and (max-width: 805px) {
+    .info__text{
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,30 @@
+.header__number{
+  font-size: 54px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.header__number a {
+  color: white;
+}
+
+@media screen and (max-width: 805px) {
+  .header__number{
+    font-size: 42px;
+
+  }
+}
+
+@media screen and (max-width: 606px) {
+  .header__number{
+    font-size: 28px;
+
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__number{
+    font-size: 28px;
+
+  }
+}

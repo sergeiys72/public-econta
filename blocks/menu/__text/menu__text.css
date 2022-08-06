@@ -1,0 +1,14 @@
+.menu__text{
+  /*color: rgb(210, 210, 170);*/
+  max-width: 150px;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1028px) {
+  .menu__text{
+    font-size: 14px;
+
+  }
+}

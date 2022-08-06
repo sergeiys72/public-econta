@@ -1,0 +1,10 @@
+.works__lists{
+  margin-bottom: 24px;
+}
+
+.works__lists:last-child{
+  margin-bottom: 0;
+}
+
+
+

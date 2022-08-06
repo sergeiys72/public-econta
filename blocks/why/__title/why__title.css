@@ -1,0 +1,14 @@
+.why__title{
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 606px) {
+  .why__title{
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+}

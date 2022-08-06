@@ -1,0 +1,10 @@
+.root{
+  background-image: url(../../images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: inter, Arial, sans-serif;
+  color: #fff;
+}

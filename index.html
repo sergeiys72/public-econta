@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Полный комплекс услуг по проектированию и разработке экологической документации">
+  <meta name="keywords"
+    content="экология, ССЗ, НДС, НДВ, ПДВ, НЛООР, СЗО, экологическая документаця, эконта, ekonta, экологическая компания">
+  <meta name="author" content="Гавриловский Сергей">
+
+  <title>Эконта</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./pages/index.css">
+  <script defer src="./libs/inputmask.min.js"></script>
+  <script defer src="./libs/just-validate.min.js"></script>
+  <script defer src="./js/script.js"></script>
+  <script defer src="./js/script_popup_form_validate.js"></script>
+</head>
+
+<body class="root">
+  <header class="header">
+    <div class="header__content">
+      <img src="./images/logo_withe.png" alt="логотип компании эконта" class="header__logo">
+      <h1 class="title header__title">Полный комплекс услуг по проектированию и разработке экологической документации
+      </h1>
+      <p class="header__number">8-800-201-38-68</p>
+
+      <form action="#" class="form" method="POST" enctype="multipart/form-data">
+        <h1 class="title form__title">Оставьте заявку и мы с вами свяжемся</h1>
+        <fieldset class="form__content">
+          <label class="form__label">
+            <input class="form__input" type="text" data-validate-field="name" name="Имя"
+              placeholder="Как к вам обратиться*">
+          </label>
+          <label class="form__label">
+            <input class="form__input" type="tel" data-validate-field="tel" name="Телефон"
+              placeholder="На какой телефон перезвонить*">
+          </label>
+          <label class="form__label">
+            <input class="form__input" type="text" data-validate-field="text" name="Коментарий"
+              placeholder="Какой проект вас интересует">
+          </label>
+          <label>
+            <input class="form__input form__submit" type="submit" id="button">
+          </label>
+        </fieldset>
+        <p class="form__result res-true">Сообщение отправленно! Скоро с вами свяжется наш
+          специалист</p>
+        <p class="form__result res-false">что то пошло не так, попробуйте еще раз или позвоните на наш номер</p>
+      </form>
+
+      <!--<div class="popup">
+        popup__title
+      </div>-->
+    </div>
+  </header>
+
+  <menu class="menu">
+    <h2 class="title menu__title">предоставляемые услуги</h2>
+    <ul class="menu__content">
+      <li class="menu__item">
+        <a class="menu__link" href="./nds.html"></a>
+        <img src="./images/icon/capla.png" alt="" class="menu__icon">
+        <p class="menu__text">Проект НДС</p>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./ndv.html"></a>
+        <img src="./images/icon/oblako.png" alt="" class="menu__icon">
+        <p class="menu__text">Проект НДВ</p>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./szz.html"></a>
+        <img src="./images/icon/target.png" alt="" class="menu__icon">
+        <p class="menu__text">Проект СЗЗ</p>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./eco-doc.html"></a>
+        <img src="./images/icon/book.png" alt="" class="menu__icon">
+        <p class="menu__text">Экологическая Докуменетация</p>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./zso.html"></a>
+        <img src="./images/icon/man.png" alt="" class="menu__icon">
+        <p class="menu__text">Проект ЗСО</p>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./noolr.html"></a>
+        <img src="./images/icon/brash.png" alt="" class="menu__icon">
+        <p class="menu__text">Проект НООЛР</p>
+      </li>
+    </ul>
+    <!--<h3 class="title menu__title"> бесплатный расчет стоимости по интересующему вас проекту</h3>
+    <button class="form__submit order__btn">Начать расчет</button>-->
+  </menu>
+
+  <main class="main">
+    <section class="why">
+      <div class="why__content">
+        <h2 class="title why__title">почему именно мы?</h2>
+        <ul class="why__items">
+          <li class="why__item">
+            <img src="./images/clock.png" alt="" class="why__img">
+            <div class="why__info">
+              <h3 class="title why__info-title">Вы экономите время и нервы</h3>
+              <p class="why__text">Мы решаем абсолютно все вопросы, которые связаны с составлением и согласованием
+                нужных
+                документов, в том числе “хождением по инстанциям”</p>
+            </div>
+          </li>
+          <li class="why__item">
+            <img src="./images/card.png" alt="" class="why__img">
+            <div class="why__info">
+              <h3 class="title why__info-title">Вы получаете больше за меньшие деньги</h3>
+              <p class="why__text">Вам не придется самостоятельно разбираться в тонкостях экологического нормирования
+                или
+                нанимать для этого отдельного сотрудника</p>
+            </div>
+          </li>
+          <li class="why__item">
+            <img src="./images/checkbox.png" alt="" class="why__img">
+            <div class="why__info">
+              <h3 class="title why__info-title">Вы на 100% уверены в результате</h3>
+              <p class="why__text">Потому что Вы получаете проект и прочую документацию прошедшую экспертизу и
+                согласование во всех инстанциях и государственных органах</p>
+            </div>
+          </li>
+          <li class="why__item">
+            <img src="./images/circles.png" alt="" class="why__img">
+            <div class="why__info">
+              <h3 class="title why__info-title">Вы точно знаете, когда получите согласованный проект</h3>
+              <p class="why__text">Мы всегда называем реальные сроки, так как детально знаем регламенты всех согласующих
+                организаций</p>
+            </div>
+          </li>
+          <li class="why__item">
+            <img src="./images/protection.png" alt="" class="why__img">
+            <div class="why__info">
+              <h3 class="title why__info-title">Почему нам можно доверять?</h3>
+              <p class="why__text">У нас огромный опыт и обширная география деятельности компании. В штате работают
+                только
+                профессионалы. Мы дорожим своей репутацией и за долгосрочное сотрудничество.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="map">
+      <h2 class="title map__title">География реализованых проектов</h2>
+      <img src="./images/map.png" alt="" class="map__img">
+    </section>
+
+    <section class="clien">
+      <h2 class="title clien__title">наши клиенты</h2>
+      <div class="clien__content">
+        <img src="./images/ekontaClients.png" alt="" class="clien__item">
+      </div>
+    </section>
+
+    <section class="works">
+      <h2 class="title works__title">наши работы</h2>
+      <div class="works__content">
+        <p class="works__text">Наша компания имеет опыт работы с предприятиями, осуществляющими деятельность на таких
+          объектах, как:</p>
+        <ul class="works__lists">
+          <li class="works__list">Автозаправочные комплексы и станции;</li>
+          <li class="works__list">Кустовые площадки месторождений по добыче нефти и газа;</li>
+          <li class="works__list">Газораспределительные и газоснабжающие сети;</li>
+          <li class="works__list">Машиностроительные заводы (в т.ч. военные);</li>
+          <li class="works__list">Заводы по производству пищевых продуктов (в т.ч. хлебобулочные изделия, вино, пиво,
+            безалкогольные напитки);</li>
+          <li class="works__list">Автотранспортные предприятия;</li>
+          <li class="works__list">Объекты железнодорожного транспорта;</li>
+          <li class="works__list">Морские и речные порты;</li>
+          <li class="works__list">Аэропорты;</li>
+          <li class="works__list">Объекты тепло-водоснабжения и водоотведения (в т.ч. городские и районные котельные,
+            водозаборы, очистные сооружения);</li>
+          <li class="works__list">Полигоны ТКО и мусоросортировочные заводы;</li>
+          <li class="works__list">Городские больницы, школы, торговые центры, кафе и другие объекты городской
+            инфраструктуры.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__info">
+      <a href="https://2gis.ru/tyumen/search/геологоразведчиков%206%20в?m=65.568753%2C57.133661%2F17.24"
+        class="footer__adres" target="_blank">г. Тюмень, ул. Геологоразведчиков, д. 6 в, офис 313.</a>
+      <p class="footer__tel"><span class="footer__color">Тел:</span> 8-800-201-38-68.</p>
+      <p class="footer__mail"><span class="footer__color">Email:</span> ecosales@ekonta.ru</p>
+    </div>
+    <img class="footer__logo" src="./images/logo_withe.png" alt="">
+  </footer>
+  <script src="./js/script__popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.footer__logo{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: auto;
+  /*justify-self: flex-end;*/
+}
+
+@media screen and (max-width: 670px) {
+  .footer__logo{
+    width: 100px;
+  }
+}

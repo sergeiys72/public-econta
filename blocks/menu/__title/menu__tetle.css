@@ -1,0 +1,16 @@
+.menu__title{
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 606px) {
+  .menu__title{
+    font-size: 18px;
+
+  }
+}

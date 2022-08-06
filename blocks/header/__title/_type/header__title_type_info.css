@@ -1,0 +1,10 @@
+.header__title_type_info{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__title_type_info{
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,21 @@
+.form__content{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  margin: auto;
+  align-items: center;
+  max-width: 400px;
+  min-height: 115px;
+  background-color: rgb(54, 70, 76, 0.9);
+  padding: 20px 15px 15px;
+  box-sizing: border-box;
+  border: 5px solid rgb(174, 176, 176);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .form__content{
+    padding: 10px 5px 5px;
+  }
+}

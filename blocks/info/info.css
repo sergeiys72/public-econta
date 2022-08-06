@@ -1,0 +1,11 @@
+.info{
+  background-color: rgb(13, 37, 47, 0.7);
+  padding: 30px 30px 40px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 505px) {
+  .info{
+    padding: 0 15px 20px;
+  }
+}

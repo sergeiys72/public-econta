@@ -1,0 +1,14 @@
+.menu__item_untarget{
+  position: relative;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 824px) {
+  .menu__item_untarget{
+    width: 130px
+  }
+}

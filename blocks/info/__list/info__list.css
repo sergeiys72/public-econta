@@ -1,0 +1,27 @@
+.info__list{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.info__list::before{
+  content: "";
+  margin: 0 10px 0 0;
+  border: 2px solid  rgb(13, 37, 47, 0.7);
+  background-color: rgb(174, 176, 176);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 805px) {
+  .info__list{
+    font-size: 14px;
+  }
+
+  .info__list::before{
+    width: 10px;
+    height: 10px;
+  }
+}

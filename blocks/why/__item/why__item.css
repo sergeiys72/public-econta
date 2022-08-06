@@ -1,0 +1,13 @@
+.why__item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+/*@media screen and (max-width: 606px) {
+  .why__title{
+    font-size: 24px;
+
+  }
+}*/

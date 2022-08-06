@@ -1,0 +1,23 @@
+.footer__tel{
+  font-size: 24px;
+  line-height: 1.5;
+  color: rgb(255, 193, 127);
+}
+
+.footer__tel a {
+  color: rgb(255, 193, 127);
+}
+
+@media screen and (max-width: 1270px) {
+  .footer__tel{
+    font-size: 18px;
+  }
+}
+
+
+
+@media screen and (max-width: 1270px) {
+  .footer__tel{
+    font-size: 14px;
+  }
+}

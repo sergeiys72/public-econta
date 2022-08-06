@@ -1,0 +1,17 @@
+.footer{
+  padding: 20px;
+  background-color:rgb(13, 37, 47);
+}
+
+@media screen and (max-width: 970px) {
+  .footer{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer{
+    padding: 20px 5px;
+    display:block;
+  }
+}

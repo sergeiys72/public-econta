@@ -1,0 +1,23 @@
+.popup__button-add{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: none;
+  width: 50px;
+  height: 50px;
+  transform: scale(-1, 1) rotate();
+  z-index: 1;
+  transition: transform 1s .1s;
+}
+
+
+.popup__button-add:hover{
+  transform: scale(-1.5, 1.5);
+}
+
+@media screen and (max-width: 606px) {
+  .popup__button-add{
+    width: 60px;
+    height: 60px;
+  }
+}

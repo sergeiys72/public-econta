@@ -1,0 +1,11 @@
+.works{
+  background-color: rgb(13, 37, 47, 0.7);
+  padding: 0 30px 40px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 505px) {
+  .works{
+    padding: 0 15px 20px;
+  }
+}
